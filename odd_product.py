@@ -27,4 +27,16 @@ def run_tests():
 # Edit this code
 def odd_prod(n):
 
+    total = 1
+    count = 1
+
+    for i in range(1, n, 2):
+        count = count + 2
+        total = total * count
+
+    print(total)
+
+    
+        
+
 
